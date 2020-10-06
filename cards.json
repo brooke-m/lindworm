@@ -1,0 +1,420 @@
+{
+  "cards": [
+    {
+      "suit": "hearts",
+      "value": 2,
+      "face": false,
+      "result": "Young love, Speaking up",
+      "description": "A hollow sense of unease.",
+      "action": null
+    },
+    {
+      "suit": "hearts",
+      "value": 3,
+      "face": false,
+      "result": "Play, running through the Field",
+      "description": "The oppressive heat of the sun.",
+      "action": null
+    },
+    {
+      "suit": "hearts",
+      "value": 4,
+      "face": false,
+      "result": "New friends, Community",
+      "description": "A figure at the woodline and gone in an instant",
+      "action": null
+    },
+    {
+      "suit": "hearts",
+      "value": 5,
+      "face": false,
+      "result": "Small Kindness, A Gift",
+      "description": "Today reminds you of a dream you once had.",
+      "action": null
+    },
+    {
+      "suit": "hearts",
+      "value": 6,
+      "face": false,
+      "result": "Innocent laughter, Fumbling hands",
+      "description": "A half-hearted lie.",
+      "action": null
+    },
+    {
+      "suit": "hearts",
+      "value": 7,
+      "face": false,
+      "result": "The majesty of nature, Time spent appreciating",
+      "description": "The pain of a tree.",
+      "action": null
+    },
+    {
+      "suit": "hearts",
+      "value": 8,
+      "face": false,
+      "result": "Sudden excitement, Blinding light",
+      "description": "An enormous sound",
+      "action": null
+    },
+    {
+      "suit": "hearts",
+      "value": 9,
+      "face": false,
+      "result": "Halcyon, A bountiful world",
+      "description": "A heavy weight on your shoulders.",
+      "action": null
+    },
+    {
+      "suit": "hearts",
+      "value": 10,
+      "face": false,
+      "result": "Found Family, Caring and connection",
+      "description": "Hold tight to what you care about",
+      "action": null
+    },
+    {
+      "suit": "hearts",
+      "value": "Jack",
+      "face": true,
+      "result": "The tension of the coming storm",
+      "description": "Dark clouds gathering, Sudden haunting realisations.",
+      "action": "Add a new Motif, \"Rain\" to the Web."
+    },
+    {
+      "suit": "hearts",
+      "value": "Queen",
+      "face": true,
+      "result": "The oppressive nature of rain",
+      "description": "Feeling trapped, Isolation from your friends.",
+      "action": "All players gain a Token as the rain pours down."
+    },
+    {
+      "suit": "hearts",
+      "value": "King",
+      "face": true,
+      "result": "The joyful release of rain",
+      "description": "Running free on the Field, Old friends coming home.",
+      "action": "Create and add a new Minor Character to the Web."
+    },
+    {
+      "suit": "hearts",
+      "value": "Ace",
+      "face": true,
+      "result": "The smell after the rain",
+      "description": "Dewdrops on grass, Nostalgia found in the mud.",
+      "action": "Create and add a new Item to the web."
+    },
+    {
+      "suit": "diamonds",
+      "value": 2,
+      "face": false,
+      "result": "Approaching danger, Small things in pain",
+      "description": "The flayed corpse of a squirrel.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": 3,
+      "face": false,
+      "result": "Biting at skin, Anxiety",
+      "description": "Long scrape marks on a tree.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": 4,
+      "face": false,
+      "result": "Uncertainty, A dark cloud overhead,",
+      "description": "A scar that you don’t know where it came from.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": 5,
+      "face": false,
+      "result": "Decay, Rotting food",
+      "description": "A bloated carcass emerging from the Lake.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": 6,
+      "face": false,
+      "result": "The uncanny, Alien sensations",
+      "description": "Floating bones.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": 7,
+      "face": false,
+      "result": "Becoming lost, Desperate cravings",
+      "description": "Mysterious patterns locking together.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": 8,
+      "face": false,
+      "result": "Sudden pain, Sharp unease",
+      "description": "Coyotes howling in the darkness.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": 9,
+      "face": false,
+      "result": "Lost sleep, Deep shadows full of pain",
+      "description": "Two rats having devoured each other.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": 10,
+      "face": false,
+      "result": "Fields thick with noxious mud",
+      "description": "Festering wounds, Rabbits with black bile.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": "Jack",
+      "face": true,
+      "result": "Fire, Sudden brightness",
+      "description": "Fear amongst the Campers.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": "Queen",
+      "face": true,
+      "result": "Fog, Obscuring",
+      "description": "People missing within the heavy mists.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": "King",
+      "face": true,
+      "result": "Strange massacre, Scattered droplets of blood",
+      "description": "Drowned fish in the lake.",
+      "action": null
+    },
+    {
+      "suit": "diamonds",
+      "value": "Ace",
+      "face": true,
+      "result": "Cursed royalty, Nightmares",
+      "description": "A vivisected deer scattered on the branches.",
+      "action": null
+    },
+    {
+      "suit": "clubs",
+      "value": 2,
+      "face": false,
+      "result": "Jolted awake, Reality melting",
+      "description": "Campers having nightmares during the day.",
+      "action": "Who?"
+    },
+    {
+      "suit": "clubs",
+      "value": 3,
+      "face": false,
+      "result": "Bloodstained fingernails, Pleas for help",
+      "description": "Campers can’t stop clawing at their own skin.",
+      "action": "Who?"
+    },
+    {
+      "suit": "clubs",
+      "value": 4,
+      "face": false,
+      "result": "Blood trickling from the trees, Inevitable slow pain",
+      "description": "Campers can’t stop bleeding.",
+      "action": "Who?"
+    },
+    {
+      "suit": "clubs",
+      "value": 5,
+      "face": false,
+      "result": "Ghost stories, Memories of past trauma",
+      "description": "An extra Camper who shouldn’t be here.",
+      "action": "Who?"
+    },
+    {
+      "suit": "clubs",
+      "value": 6,
+      "face": false,
+      "result": "Confusion, Mists pushing people against each other",
+      "description": "One Camper lashes out against another.",
+      "action": "Who? Why?"
+    },
+    {
+      "suit": "clubs",
+      "value": 7,
+      "face": false,
+      "result": "Secrets, Old objects emerging from the undergrowth",
+      "description": "Campers saw the Lindworm and won't talk about it.",
+      "action": "Who?"
+    },
+    {
+      "suit": "clubs",
+      "value": 8,
+      "face": false,
+      "result": "Mistakes, Manipulation",
+      "description": "Campers have started playing with animal bones.",
+      "action": "Who?"
+    },
+    {
+      "suit": "clubs",
+      "value": 9,
+      "face": false,
+      "result": "An alluring promise, The scent of distant fruits",
+      "description": "Campers lured away.",
+      "action": "Who? Where?"
+    },
+    {
+      "suit": "clubs",
+      "value": 10,
+      "face": false,
+      "result": "Sudden attack, Destruction of safety",
+      "description": "One Camper’s bed was destroyed by sharp claws.",
+      "action": "Who?"
+    },
+    {
+      "suit": "clubs",
+      "value": "Jack",
+      "face": true,
+      "result": "A Camper was found dead.",
+      "description": "Mouth stuffed full of wooden sticks and eyes gouged out.",
+      "action": "Remove a Camper Character from the Corkboard and replace it with this card. Describe the Camper."
+    },
+    {
+      "suit": "clubs",
+      "value": "Queen",
+      "face": false,
+      "result": "A Camper was found dead.",
+      "description": "Stabbed twenty times and covered in animal bones.",
+      "action": "Remove a Camper Character from the Corkboard and replace it with this card. Describe the Camper."
+    },
+    {
+      "suit": "clubs",
+      "value": "King",
+      "face": true,
+      "result": "A Camper was found dead.",
+      "description": "Skin peeled off. Unrecognizable",
+      "action": "Remove a Camper Character from the Corkboard and replace it with this card. Describe the Camper."
+    },
+    {
+      "suit": "clubs",
+      "value": "Ace",
+      "face": false,
+      "result": "A Camper was found dead.",
+      "description": "Lobotomized while writing a letter for help.",
+      "action": "Remove a Camper Character from the Corkboard and replace it with this card. Describe the Camper."
+    },
+    {
+      "suit": "spades",
+      "value": 2,
+      "face": false,
+      "result": "Their body is my plaything.",
+      "description": null,
+      "action": "Destroy a Minor Character card who isn’t a Camper. That Character’s body is now the Lindworm’s form. (Do not roleplay as the Lindworm.)"
+    },
+    {
+      "suit": "spades",
+      "value": 3,
+      "face": false,
+      "result": "You run in circles like mice in a cage",
+      "description": null,
+      "action": "Divide the map in two. It requires a Strong Move to cross the division."
+    },
+    {
+      "suit": "spades",
+      "value": 4,
+      "face": false,
+      "result": "Dance with me!",
+      "description": null,
+      "action": "Cut five strings on the Corkboard, leaving a clean line through the web."
+    },
+    {
+      "suit": "spades",
+      "value": 5,
+      "face": false,
+      "result": "Don’t you realize what I’ve turned you into?",
+      "description": null,
+      "action": "Answer, “What goal in life has my Character given up on?”"
+    },
+    {
+      "suit": "spades",
+      "value": 6,
+      "face": false,
+      "result": "Don’t you remember what I did to you?",
+      "description": null,
+      "action": "Answer, “What does my Character most regret in life?”"
+    },
+    {
+      "suit": "spades",
+      "value": 7,
+      "face": false,
+      "result": "I take away everything that reminds you of your childhood.",
+      "description": null,
+      "action": "Destroy the Field Setting Element."
+    },
+    {
+      "suit": "spades",
+      "value": 8,
+      "face": false,
+      "result": "I’ll take everything from you.",
+      "description": null,
+      "action": "Destroy all but 3 Item cards."
+    },
+    {
+      "suit": "spades",
+      "value": 9,
+      "face": false,
+      "result": "Behold what I will turn you into.",
+      "description": null,
+      "action": "Add the Bones Setting Element."
+    },
+    {
+      "suit": "spades",
+      "value": 10,
+      "face": false,
+      "result": "Die.",
+      "description": null,
+      "action": "A player Character dies."
+    },
+    {
+      "suit": "spades",
+      "value": "Jack",
+      "face": true,
+      "result": "They scatter like roaches before me.",
+      "description": null,
+      "action": "Destroy the Campers Setting Element."
+    },
+    {
+      "suit": "spades",
+      "value": "Queen",
+      "face": true,
+      "result": "My children hunt.",
+      "description": null,
+      "action": "Add the Wolves Setting Element."
+    },
+    {
+      "suit": "spades",
+      "value": "King",
+      "face": true,
+      "result": "You really thought I’d let you live?",
+      "description": "",
+      "action": "None of your Characters will survive. All of you answer, “How does your Character cope with inevitable death?”"
+    },
+    {
+      "suit": "spades",
+      "value": "Ace",
+      "face": true,
+      "result": "I want to make you bleed",
+      "description": "",
+      "action": "You cannot make Strong or Regular Moves until you spend three Tokens."
+    }
+  ]
+}
