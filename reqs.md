@@ -1,5 +1,7 @@
 # Lindworm Bot:
 
+i just feel like the lindworm would be even spookier in bot form
+
 ## Responsibilities in Discord
  - communicate privately with channeler (listening)
  - post cards into a public channel
@@ -7,7 +9,24 @@
  - facilitate changing of the acts
    - store rules and directions somewhere on the bot
 
+### Discord Commands
+ - setup: setup the game
+ - invite: draw three and display the hand privately
+ - play: recieve choice and display card publically
+ - (hidden) construct an embed
+ - update: recieve notification of acts changing
+  - restructure the deck as necessary
+  - post an act update
+
+### Necessary Embeds
+  - card draw (private)
+    - needs to know the cards drawn
+    - needs to be sent lindwormDeck.hand
+  - card play (public)
+  - act shift (public)
+
 ## Deck Responsibilities
+  - be saved at any moment
   - manage the deck of cards
     - change the structure of the deck to match the current act
       - remove groups of cards (suits, face cards)

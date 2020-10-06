@@ -1,7 +1,10 @@
 const cards = require('./cards.json');
+const save = require('./savegame.json');
+var fs = require('fs');
 
 var deck = [];
 var hand = [];
+var act = "not started"
 
 var lindwormDeck = {
 
@@ -13,6 +16,7 @@ var lindwormDeck = {
         deck.push(card)
       }
     }
+    act = "surface"
   },
 
   descent: function () {
@@ -34,8 +38,8 @@ var lindwormDeck = {
         descentDeck.push(card)
       }
     }
-
     deck = descentDeck
+    act = "descent"
   },
 
   abyss: function () {
@@ -59,6 +63,7 @@ var lindwormDeck = {
       }
 
     deck = abyssDeck
+    act = "abyss"
   },
 
   draw: function () {
@@ -93,9 +98,35 @@ var lindwormDeck = {
     }
   },
 
+  save: function(){
+    var toJSON = JSON.stringify(deck)
+    fs.writeFile('savegame.json', toJSON, 'utf8', function (err) {
+      if (err) return console.log(err);
+      console.log('game saved');
+    });
+  },
+
+  load: function(){
+    for (i in save) {
+      var card = save[i]
+      deck.push(card)
+    }
+    console.log('game loaded');
+  },
+
   shuffle: function (){
     //shuffle the array
     deck = deck.sort(() => Math.random() - 0.5)
+  },
+
+  handStatus: function(){
+    console.log("There are " + hand.length + " cards in hand.")
+
+    if(hand.length > 0){
+      for (i in hand){
+        console.log(hand[i].value + " of " + hand[i].suit)
+      }
+    }
   },
 
   deckStatus: function (){
